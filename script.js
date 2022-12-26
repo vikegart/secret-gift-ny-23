@@ -167,7 +167,7 @@
                     }
                     SPIN_RES = [];
 
-                  }, 700);
+                  }, 900);
                 }
 
                 // this.innerHTML == 'a';
