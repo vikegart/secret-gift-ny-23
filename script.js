@@ -5,69 +5,69 @@
 
 
   const items = [
-    {html: `<img src="./pics/reap.webp" data-link='./video/SnowStalker.webm' />`, value: ''},
-    {html: `<img src="./pics/reap.webp" data-link='./video/SnowStalker.webm' />`, value: ''},
-    {html: `<img src="./pics/reap.webp" data-link='./video/SnowStalker.webm' />`, value: ''},
+    {html: `<img src="./pics/reap.webp" data-link='./video/reaper.webm' />`, value: ''},
+    {html: `<img src="./pics/reap.webp" data-link='./video/reaper.webm' />`, value: ''},
+    {html: `<img src="./pics/reap.webp" data-link='./video/reaper.webm' />`, value: ''},
 
-    {html: `<img src="./pics/squid_shark.png" data-link='./video/SnowStalker.webm' />`, value: ''},
-    {html: `<img src="./pics/squid_shark.png" data-link='./video/SnowStalker.webm' />`, value: ''},
-    {html: `<img src="./pics/squid_shark.png" data-link='./video/SnowStalker.webm' />`, value: ''},
+    {html: `<img src="./pics/squid_shark.png" data-link='./video/squidshark.webm' />`, value: ''},
+    {html: `<img src="./pics/squid_shark.png" data-link='./video/squidshark.webm' />`, value: ''},
+    {html: `<img src="./pics/squid_shark.png" data-link='./video/squidshark.webm' />`, value: ''},
 
-    {html: `<img src="./pics/traider.webp" data-link='./video/SnowStalker.webm' />`, value: ''},
-    {html: `<img src="./pics/traider.webp" data-link='./video/SnowStalker.webm' />`, value: ''},
-    {html: `<img src="./pics/traider.webp" data-link='./video/SnowStalker.webm' />`, value: ''},
+    {html: `<img src="./pics/traider.webp" data-link='./video/seatraider.webm' />`, value: ''},
+    {html: `<img src="./pics/traider.webp" data-link='./video/seatraider.webm' />`, value: ''},
+    {html: `<img src="./pics/traider.webp" data-link='./video/seatraider.webm' />`, value: ''},
 
-    {html: `<img src="./pics/craw.png" data-link='./video/SnowStalker.webm' />`, value: ''},
-    {html: `<img src="./pics/craw.png" data-link='./video/SnowStalker.webm' />`, value: ''},
-    {html: `<img src="./pics/craw.png" data-link='./video/SnowStalker.webm' />`, value: ''},
+    {html: `<img src="./pics/craw.png" data-link='' />`, value: ''},
+    {html: `<img src="./pics/craw.png" data-link='' />`, value: ''},
+    {html: `<img src="./pics/craw.png" data-link='' />`, value: ''},
 
-    {html: `<img src="./pics/SeaMonkey.webp" data-link='./video/SnowStalker.webm' />`, value: ''},
-    {html: `<img src="./pics/SeaMonkey.webp" data-link='./video/SnowStalker.webm' />`, value: ''},
-    {html: `<img src="./pics/SeaMonkey.webp" data-link='./video/SnowStalker.webm' />`, value: ''},
+    {html: `<img src="./pics/SeaMonkey.webp" data-link='./video/seamonkey.webm' />`, value: ''},
+    {html: `<img src="./pics/SeaMonkey.webp" data-link='./video/seamonkey.webm' />`, value: ''},
+    {html: `<img src="./pics/SeaMonkey.webp" data-link='./video/seamonkey.webm' />`, value: ''},
 
-    {html: `<img src="./pics/crash.png" data-link='./video/SnowStalker.webm' />`, value: ''},
-    {html: `<img src="./pics/crash.png" data-link='./video/SnowStalker.webm' />`, value: ''},
-    {html: `<img src="./pics/crash.png" data-link='./video/SnowStalker.webm' />`, value: ''},
+    {html: `<img src="./pics/crash.png" data-link='./video/crashfish.webm' />`, value: ''},
+    {html: `<img src="./pics/crash.png" data-link='./video/crashfish.webm' />`, value: ''},
+    {html: `<img src="./pics/crash.png" data-link='./video/crashfish.webm' />`, value: ''},
 
-    {html: `<img src="./pics/peng.png" data-link='./video/SnowStalker.webm' />`, value: ''},
-    {html: `<img src="./pics/peng.png" data-link='./video/SnowStalker.webm' />`, value: ''},
-    {html: `<img src="./pics/peng.png" data-link='./video/SnowStalker.webm' />`, value: ''},
+    {html: `<img src="./pics/peng.png" data-link='./video/pengwings.webm' />`, value: ''},
+    {html: `<img src="./pics/peng.png" data-link='./video/pengwings.webm' />`, value: ''},
+    {html: `<img src="./pics/peng.png" data-link='./video/pengwings.webm' />`, value: ''},
 
-    {html: `<img src="./pics/snow-stal.png" data-link='./video/SnowStalker.webm' />`, value: ''},
-    {html: `<img src="./pics/snow-stal.png" data-link='./video/SnowStalker.webm' />`, value: ''},
-    {html: `<img src="./pics/snow-stal.png" data-link='./video/SnowStalker.webm' />`, value: ''},
+    {html: `<img src="./pics/snow-stal.png" data-link='./video/snowstalker.webm' />`, value: ''},
+    {html: `<img src="./pics/snow-stal.png" data-link='./video/snowstalker.webm' />`, value: ''},
+    {html: `<img src="./pics/snow-stal.png" data-link='./video/snowstalker.webm' />`, value: ''},
 
-    {html: `<img src="./pics/sea-drag.png" data-link='./video/SnowStalker.webm' />`, value: ''},
-    {html: `<img src="./pics/sea-drag.png" data-link='./video/SnowStalker.webm' />`, value: ''},
-    {html: `<img src="./pics/sea-drag.png" data-link='./video/SnowStalker.webm' />`, value: ''},
+    {html: `<img src="./pics/sea-drag.png" data-link='./video/seadragon.webm' />`, value: ''},
+    {html: `<img src="./pics/sea-drag.png" data-link='./video/seadragon.webm' />`, value: ''},
+    {html: `<img src="./pics/sea-drag.png" data-link='./video/seadragon.webm' />`, value: ''},
 
-    {html: `<img src="./pics/Shadow_Leviathan_Fauna.webp" data-link='./video/SnowStalker.webm' />`, value: ''},
-    {html: `<img src="./pics/Shadow_Leviathan_Fauna.webp" data-link='./video/SnowStalker.webm' />`, value: ''},
-    {html: `<img src="./pics/Shadow_Leviathan_Fauna.webp" data-link='./video/SnowStalker.webm' />`, value: ''},
+    {html: `<img src="./pics/Shadow_Leviathan_Fauna.webp" data-link='./video/shadow.webm' />`, value: ''},
+    {html: `<img src="./pics/Shadow_Leviathan_Fauna.webp" data-link='./video/shadow.webm' />`, value: ''},
+    {html: `<img src="./pics/Shadow_Leviathan_Fauna.webp" data-link='./video/shadow.webm' />`, value: ''},
 
-    {html: `<img src="./pics/cuddle.png" data-link='./video/SnowStalker.webm' />`, value: ''},
-    {html: `<img src="./pics/cuddle.png" data-link='./video/SnowStalker.webm' />`, value: ''},
-    {html: `<img src="./pics/cuddle.png" data-link='./video/SnowStalker.webm' />`, value: ''},
+    {html: `<img src="./pics/cuddle.png" data-link='./video/cuddlefish.webm' />`, value: ''},
+    {html: `<img src="./pics/cuddle.png" data-link='./video/cuddlefish.webm' />`, value: ''},
+    {html: `<img src="./pics/cuddle.png" data-link='./video/cuddlefish.webm' />`, value: ''},
 
-    {html: `<img src="./pics/reefback.png" data-link='./video/SnowStalker.webm' />`, value: ''},
-    {html: `<img src="./pics/reefback.png" data-link='./video/SnowStalker.webm' />`, value: ''},
-    {html: `<img src="./pics/reefback.png" data-link='./video/SnowStalker.webm' />`, value: ''},
+    {html: `<img src="./pics/reefback.png" data-link='./video/reefback.webm' />`, value: ''},
+    {html: `<img src="./pics/reefback.png" data-link='./video/reefback.webm' />`, value: ''},
+    {html: `<img src="./pics/reefback.png" data-link='./video/reefback.webm' />`, value: ''},
 
-    {html: `<img src="./pics/bite.png" data-link='./video/SnowStalker.webm' />`, value: ''},
-    {html: `<img src="./pics/bite.png" data-link='./video/SnowStalker.webm' />`, value: ''},
-    {html: `<img src="./pics/bite.png" data-link='./video/SnowStalker.webm' />`, value: ''},
+    {html: `<img src="./pics/bite.png" data-link='./video/bite.webm' />`, value: ''},
+    {html: `<img src="./pics/bite.png" data-link='./video/bite.webm' />`, value: ''},
+    {html: `<img src="./pics/bite.png" data-link='./video/bite.webm' />`, value: ''},
 
-    {html: `<img src="./pics/cheli.png" data-link='./video/SnowStalker.webm' />`, value: ''},
-    {html: `<img src="./pics/cheli.png" data-link='./video/SnowStalker.webm' />`, value: ''},
-    {html: `<img src="./pics/cheli.png" data-link='./video/SnowStalker.webm' />`, value: ''},
+    {html: `<img src="./pics/cheli.png" data-link='./video/chelistale.webm' />`, value: ''},
+    {html: `<img src="./pics/cheli.png" data-link='./video/chelistale.webm' />`, value: ''},
+    {html: `<img src="./pics/cheli.png" data-link='./video/chelistale.webm' />`, value: ''},
 
-    {html: `<img src="./pics/ghost.webp" data-link='./video/SnowStalker.webm' />`, value: ''},
-    {html: `<img src="./pics/ghost.webp" data-link='./video/SnowStalker.webm' />`, value: ''},
-    {html: `<img src="./pics/ghost.webp" data-link='./video/SnowStalker.webm' />`, value: ''},
+    {html: `<img src="./pics/ghost.webp" data-link='./video/ghost.webm' />`, value: ''},
+    {html: `<img src="./pics/ghost.webp" data-link='./video/ghost.webm' />`, value: ''},
+    {html: `<img src="./pics/ghost.webp" data-link='./video/ghost.webm' />`, value: ''},
 
-    {html: `<img src="./pics/stalker.png" data-link='./video/SnowStalker.webm' />`, value: ''},
-    {html: `<img src="./pics/stalker.png" data-link='./video/SnowStalker.webm' />`, value: ''},
-    {html: `<img src="./pics/stalker.png" data-link='./video/SnowStalker.webm' />`, value: ''},
+    {html: `<img src="./pics/stalker.png" data-link='./video/stalker.webm' />`, value: ''},
+    {html: `<img src="./pics/stalker.png" data-link='./video/stalker.webm' />`, value: ''},
+    {html: `<img src="./pics/stalker.png" data-link='./video/stalker.webm' />`, value: ''},
 
  
    
@@ -92,6 +92,9 @@
   }
 
   function showModalWithVideo(url) {
+    if (!url) {
+      return;
+    }
     const videoModal = document.querySelector("#modalVideo");
     videoModal.innerHTML = `<video src="${url}" controls></video>`;
     videoModal.style.display = 'block';
